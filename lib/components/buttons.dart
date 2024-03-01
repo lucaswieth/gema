@@ -141,9 +141,7 @@ class GemaCheckbox extends StatelessWidget {
 }
 
 class GemaCardButtons extends StatelessWidget {
-  const GemaCardButtons({
-    super.key,
-  });
+  const GemaCardButtons({super.key});
 
   @override
   Widget build(BuildContext context) {
