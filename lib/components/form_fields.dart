@@ -44,10 +44,7 @@ class GemaTextFormField extends StatelessWidget {
 
 class GemaNumberFormField extends StatelessWidget {
   final TextEditingController? controller;
-  const GemaNumberFormField({
-    super.key,
-    this.controller,
-  });
+  const GemaNumberFormField({super.key, this.controller});
 
   @override
   Widget build(BuildContext context) {
